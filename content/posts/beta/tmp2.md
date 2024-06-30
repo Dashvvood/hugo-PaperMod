@@ -1,6 +1,6 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date | time.Format "2006-01-02" }}
+title: 'Tmp2'
+date: 2024-06-30
 draft: true
 tags: ["default"]
 weight: 10
