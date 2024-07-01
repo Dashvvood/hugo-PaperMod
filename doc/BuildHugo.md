@@ -153,6 +153,10 @@ https://pagefind.app/docs/running-pagefind/
 npx pagefind --site public
 ```
 
+**default**
+```markdown
+date: {{ .Date | time.Format "2006-01-02" }}
+```
 
 
 **hugo config**
